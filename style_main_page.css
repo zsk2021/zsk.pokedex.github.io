@@ -1,0 +1,65 @@
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/05/25/88/95/360_F_525889523_E5FdLyPnqv18VxWirHSVWZWQmYDegOXs.jpg"); 
+    background-repeat: no-repeat; background-size: cover;
+    text-align: center;
+}
+
+.main-container {
+    min-height: 1800px;
+    max-width: 1400px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(48, 71, 49, 0.7);
+    position: relative;
+}
+
+.main-container .search-container {
+    background-image: url("https://www.pngall.com/wp-content/uploads/4/Pokemon-Pokeball-Transparent.png");
+    background-repeat: no-repeat;
+    background-size: 370px, 370px;
+    background-position: center;
+    background-color: rgba(233, 198, 124,0.3);
+    text-align: center;
+    height: 350px;
+    object-position: center;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#query {
+    background-color: red;
+    font-size: medium;
+}
+.main-container .search-container input {
+    background-position: center;
+    margin-top: 4.5cm;
+}
+
+.main-container .image-container {
+    min-height: 1400px;
+    position: relative;
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgba(118, 179, 233, 0.7);
+}
+
+.main-container .image-container .images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.main-container .image-container .images img{
+    height: 200px;
+    width: 200px;
+    padding: 3mm;
+    transition: all 1s;
+}
+
+.images img:hover {
+    transform: scale(1.3);
+}
+
